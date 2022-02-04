@@ -1,6 +1,8 @@
 // Please include header (lab22.h) here.
+#include "lab22.h"
 
 int main(){
+	system("lab22.h");
 	srand(time(0));
 	Unit hero,mons;
 	hero.create("Hero");
